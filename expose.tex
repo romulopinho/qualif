@@ -1,212 +1,299 @@
-\documentclass{article}
+\documentclass[10pt]{article}
 
 \usepackage[subsectionbib]{bibunits}
 \usepackage{fullpage}
-%\usepackage[sort]{natbib}
+\usepackage[latin1]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage{sectsty}
+\usepackage{titlesec}
+\usepackage[french=guillemets]{csquotes}
 
-\title{R\^omulo Teixeira de Abreu Pinho\\Curriculum Vitae}
+\sectionfont{\large}
+\paragraphfont{\normalsize}
+\titlespacing*{\section}{0mm}{*2}{*0.5}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{1mm}}%
+  {\end{itemize}}
+
+\title{Exposé d'Activités de Recherche et Professionnels}
 \date{}
 \author{}
 
 \begin{document}
 
 \maketitle
+\vspace{-1,5cm}
+\begin{center}
+{\bf Rômulo (TEIXEIRA DE ABREU) PINHO}
+\end{center} 
+%\medskip
+%40, Rue Colin, Villeurbanne, 69100, France \\
+%Mobile: +33-(0)-638305900 \\
+%E-mail: romulo.pinho@lyon.unicancer.fr\\
+%URL: www.creatis.insa-lyon.fr/rio/RomuloPinho} \\
+%
+%\medskip
+%
+%Brésilien, 34 ans \\
+%Marié, sans enfants
 
-
-\section{Contact Information}
-
-40, Rue Colin\\
-Villeurbanne, 69100, France.\\
-Mobile Number: +33-(0)-638305900\\
-e-mail: romulo.pinho@lyon.unicancer.fr\\
-URL: www.creatis.insa-lyon.fr/rio/RomuloPinho
-
-\section{Biographical Data}
-
-Birth date: March, 3rd, 1977\\
-Place of Birth: Petr\'opolis, RJ, Brazil\\
-Citizenship: Brazilian\\
-Marital status: Married
+\medskip
 
 %\section{Professional Interests}
 
-%\begin{itemize}
+%\begin{itemize*}
 %	\item Research and Development;
 %	\item Computer Graphics - Medical Imaging, Animation, Game Programming, 3d Modelling, Computer Geometry; 
 %	\item Multimedia Development;
 %	\item C++ and C Programming;
-%\end{itemize}
+%\end{itemize*}
 
-\section{Education}
+\section{Situation Actuelle}
 
-\begin{itemize}
-\item Ph.D. in Physics. November, 2010\\
-University of Antwerp, Belgium\\
-Specialization: Medical Image Processing\\
-Thesis: A Decision Support System for the Assessment and Stenting of Tracheal Stenosis.
+\paragraph{Ingénieur de Recherche (post-doc)} 
+Centre Léon Bérard, Lyon, France. 
 
-\item M.Sc. in Software Engineering. May, 2001\\
-Federal University of Rio de Janeiro, Rio de Janeiro, RJ, Brazil\\
-Specialization: Computer Graphics\\
-Thesis: Three Dimensional Reconstruction of Head Models from Magnetic Resonance Images.
+\medskip
+\begin{raggedright}
+Modélisation, réalisation et déploiement d'un système d'images médicales pour le
+traitement du cancer du poumon para radiothérapie guidée par images. L'objective
+est de faire un étude clinique de nouvelles techniques de recalage d'images et
+son influence sur la radiothérapie contre des tumeurs qui bougent. Développement
+multi-plateforme avec C++, CMake, ITK, VTK, QT, Python et scripts shell.
+\end{raggedright}
 
-\item B.Sc.  in Computer Science. September, 1998\\
-Fluminense Federal University, Niter\'oi, RJ, Brazil\\
-Specialization: Computer Science.
-\end{itemize}
+\paragraph{Vacataire au 3ème année} INSA-Lyon, Telecom.
 
-\section{Honours, Awards and Certificates}
+\medskip
+\begin{raggedright}
+Systèmes d'Exploitation, comprenant scripts shell, communication inter-processus et gestion de la mémoire;  
+16h de travaux pratiques; 
+langue d'enseignement: français; 
+\end{raggedright}
 
-\begin{itemize}
-	\item ScrumMaster Certificate (Las Vegas, April, 2005).
-\end{itemize}
+\paragraph{Vacataire au 1er cycle (2ème année)} INSA-Lyon, Informatique.
 
-\pagebreak
+\medskip
+\begin{raggedright}
+Programmation Orientée à l'Objet, comprenant tous les aspects de la POO (classes, méthodes, propriétés, héritage, polymorphisme etc.) et GUI Lazarus/Delphi; 
+45,5h en équivalence TD; 
+langue d'enseignement: anglais; 
+\end{raggedright}
 
-\section{Languages}
 
-\begin{itemize}
-	\item Portuguese - native
-	\item English - fluent (non-native)
-	\item French - intermediate level
-	\item Dutch - basic level
-\end{itemize}
+
+%Design, implementation, and deployment of a medical imaging system for image guided
+%radiation therapy against lung cancer. The aim is to carry out a clinical trial for the use of new
+%image registration techniques and their influence on radiation therapy against moving tumours. 
+%Multi-platform development using C++, CMake, ITK, VTK, QT, Python, and shell scripts.
+
+
+\section{Formation}
+
+\paragraph{Ph.D. en Physique} Novembre, 2010; 
+Universiteit Antwerpen, Anvers, Belgique; 
+Spécialisation: Traitement d'images médicales; 
+Thèse: A Decision Support System for the Assessment and Stenting of Tracheal Stenosis (en anglais); 
+Jury: Prof. Dr. Joris Dirckx (président, Universiteit Antwerpen, Belgique), Prof. Dr. Jan Sijbers (superviseur, Universiteit Antwerpen, Belgique), Prof. Dr. Paul Scheunders (Universiteit Antwerpen, Belgique), Prof. Dr. Rudi Deklerck (Vrije Universiteit Brussel, Belgique), Prof. Dr. Bram van Ginneken (Radboud Universiteit Nijmegen, Pays Bas), Prof. Dr. Kurt Tournoy (Universiteit Gent, Belgique).
+
+\paragraph{M.Sc. en Ingénierie de Systèmes} Mai, 2001; 
+Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brésil; 
+Spécialisation: Computation Graphique; 
+Thèse: Three Dimensional Reconstruction of Head Models from Magnetic Resonance Images (en portugais); 
+Jury: Prof. Dr. Antônio A. F. de Oliveira (superviseur, Universidade Federal do Rio de Janeiro, Brésil), Prof. Dr. Paulo Roma Cavalcanti (Universidade Federal do Rio de Janeiro, Brésil), Prof. Dr. Aura Conci (Universidade Federal Fluminense, Brésil). 
+
+\paragraph{B.Sc. en Science de la Computation} Septembre, 1998; 
+Universidade Federal Fluminense, Niterói, Brésil; 
+
+%\section{Certificats}
+%
+%\begin{itemize*}
+%	\item ScrumMaster (Las Vegas, avril, 2005) \\
+%	
+%	Formation de 2 jours de certification SCRUM et méthodes agiles.
+%\end{itemize*}
+
+%\pagebreak
 
 \input{Contributions}
 
-\section{Academic Experience}
+\section{Parcours Académique}
 
-\subsection{Teaching}
-\begin{itemize}
-\item Teacher assistant\\
-Subject: Operating Systems (in French, 16h, practice sessions)\\
-Institution: INSA-Lyon\\
-Period: September, 2011 -- February, 2012.
+\paragraph{Supervision de Thèses}
 
-\item Teacher assistant\\
-Subject: Object Oriented Programming (in English, 45h, theory and practice sessions)\\
-Institution: INSA-Lyon\\
-Period: September, 2011 -- February, 2012.
-\end{itemize}
+\begin{itemize*}
+\item Projet de licence de Stijn Peeters (co-supervision)\\
+Automatic segmentation of the airways: Morphological study of the trachea (en néerlandais)\\
+Universiteit Antwerpen, 2009
 
-\subsection{Supervision of Theses}
-\begin{itemize}
-\item B.Sc. Thesis of Stijn Peeters (co-supervision)\\
-Title: Automatic segmentation of the airways: Morphological study of the trachea (in Dutch)\\
-Institution: University of Antwerp\\
-Period: January, 2009 -- June, 2009.
+\item Projet de licence de Sten Luyckx (co-supervision)\\
+Automatic segmentation of the airways in 3D CT using cylindrical shape modelling (en néerlandais)\\
+Universiteit Antwerpen, 2009 
+\end{itemize*}
 
-\item B.Sc. Thesis of Sten Luyckx (co-supervision)\\
-Title: Automatic segmentation of the airways in 3D CT using cylindrical shape modelling (in Dutch)\\
-Institution: University of Antwerp\\
-Period: January, 2009 -- June, 2009.
-\end{itemize}
 
-\subsection{Research Projects}
-\begin{itemize}
+\paragraph{Projets de Recherche}
+\begin{itemize*}
 \item CIMI -- IBBT (http://www.ibbt.be/en/projects/overview-projects/p/detail/cimi-2) \\
-Period: January, 2010 -- December, 2010 \\
-Role: Responsible for and lead researcher of Task 2.1 of Work Package 3
+Universiteit Antwerpen \\
+Responsable et développeur principal du Task 2.1 du Work Package 3 \\
+Janvier, 2010 -- Décembre, 2010. 
 
-Development of cache and pre-fetching techniques for out-of-core processing and visualization of large microscopic images. 
+Développement des techniques de ``cache et pre-fetching'' pour le traitement et visualisation ``out-of-core'' des grandes images microscopiques. Ce Task avais comme objectif la recherche et la réalisation des nouveaux algorithmes pour l'optimisation de l'utilisation de la mémoire et l'accès à aux disque lors de la manipulation de grands fichiers d'images. Parmi les taches étaient la participation en réunions de projet et avec les partenaires et les ``clients'', l'élaboration des rapports et délivrables et le suivi du Task par rapport à des autres modules du projet.
+
+%Development of cache and pre-fetching techniques for out-of-core processing and visualization of large microscopic images. 
 
 \item Segmentor -- IBBT \\
-Period: September, 2009 -- December, 2010 \\
-Role: Researcher
+Universiteit Antwerpen \\ 
+Chercheur \\
+Septembre, 2009 -- Décembre, 2010.
 
-Development of semi-automatic segmentation techniques based on haptics for the segmentation of tracheal stenosis.
+Développement des techniques de segmentation semi-automatique d'images CT fondées sur le concept de l'haptique. L'application proposée dans ce projet avais comme objectif la segmentation des trachées avec sténose sévère. Des méthodes ``classiques'' pour ce type de segmentation, par exemple, du ``region growing'' et des modèles de contours déformables, ont trop de difficultés pour réussir à segmenter automatiquement les images. Une méthode semi-automatiques est donc nécessaire. Les dispositifs d'haptique proposent une nouvelle façon d'interagir avec les objets et les images à segmenter. 
 
-\end{itemize}
+%Development of semi-automatic segmentation techniques based on haptics for the segmentation of tracheal stenosis.
+
+\end{itemize*}
 
 
-\section{Professional Experience}
+\section{Parcours Professionnel}
 
-\begin{itemize}
-\item Post-doc Research Engineer\\
-Company: Centre L\'eon B\'erard, Lyon, France\\
-Period: Since January, 2011
+\paragraph{Ingénieur de systèmes de TV/Chercheur}
+Dept. R\&D, TV Globo Ltd., Rio de Janeiro, Brésil;
+Janvier, 2001 -- Avril, 2006. 
 
-Design, implementation, and deployment of a medical imaging system for image guided
-radiation therapy against lung cancer. The aim is to carry out a clinical trial for the use of new
-image registration techniques and their influence on radiation therapy against moving tumours. 
-Multi-platform development using C++, CMake, ITK, VTK, QT, Python, and shell scripts.
+\smallskip
+\begin{raggedright}
+Modélisation, réalisation et déploiement des logiciels pour l'acquisition, 
+compression, stockage, traitement et transmission des signaux de vidéo et audio.
+Applications réalisées en C/C++ pour Windows et Linux, avec plusieurs SDK's et
+bibliothèques, par exemple DirectShow SDK, Windows Media SDK, Matrox DigiSuite
+SDK, MFC, Video4Linux et MySQL.
+\end{raggedright}
 
-\item TV Systems Software Engineer/Researcher\\
-Company: R\&D Department, TV Globo Ltd.\\
-Period: January, 2001 -- April, 2006
+%Design and development of software for general acquisition,
+%compression, storage, processing, and transmission of
+%video and audio signals. Applications were implemented in C/C++ for Win32 and
+%Linux platforms, using various SDKs and libraries
+%including DirectShow SDK, Windows Media SDK, Matrox
+%DigiSuite SDK, MFC, Video4Linux, MySQL.
 
-Design and development of software for general acquisition,
-compression, storage, processing, and transmission of
-video and audio signals. Applications were implemented in C/C++ for Win32 and
-Linux platforms, using various SDKs and libraries
-including DirectShow SDK, Windows Media SDK, Matrox
-DigiSuite SDK, MFC, Video4Linux, MySQL.
+\paragraph{Ingénieur de Logiciels/Chercheur}
+LAMEC (Laboratoire d'Eléments de Contour);
+Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brésil;
+Octobre, 2001 -- Mai, 2003.
 
-\item Software Engineer/Researcher\\
-Company: LAMEC –- Boundary Elements Method Laboratory,\\
-Federal University of Rio de Janeiro.\\
-Period: October, 2001 –- May, 2003
+\smallskip
+\begin{raggedright}
+Modélisation et réalisation d'un système de visualisation scientifique 
+et modélisation géométrique fondé sur C++ et OpenGL/QT pour construire
+des modèles 3D à partir des primitives 3D simples. Les modèles seraient
+utilisées plus tard en computations numériques. 
+\end{raggedright}
 
-Design and development of a C++, OpenGL/QT-based scientific
-visualization and geometric modelling system to build 3d 
-models out of simple 3d primitives, to be used in numerical computations.
+%Design and development of a C++, OpenGL/QT-based scientific
+%visualization and geometric modelling system to build 3d 
+%models out of simple 3d primitives, to be used in numerical computations.
 
-\item Software Engineer\\
-Company: Publintel S. A.\\
-Period: August, 2000 –- December, 2000
+\paragraph{Ingénieur de Logiciels}
+Publintel S. A., Rio de Janeiro, Brésil;
+Aout, 2000 -- Décembre, 2000.
 
-Development and maintenance of GIS applications. Translation
-of existing GUI code to the Win32 environment. Design and
-implementation of a logistics database for automatic vehicle 
-localization, using SQL-Server, C++, STL, MFC, and ADO.
+\smallskip
+\begin{raggedright}
+Réalisation et entretien d'applications GIS. Traduction des codes GUI
+existants vers l'environnement Windows. Modélisation et réalisation
+d'une base des données de logisitique pour la localisation automatique
+des véhicules, en utilisant SQL-Server, C++, STL, MFC et ADO.
+\end{raggedright}
 
-\item Technology Researcher/Programmer\\
-Company: Montreal Inform\`atica\\
-Period: March, 2000 –- August, 2000
+%Development and maintenance of GIS applications. Translation
+%of existing GUI code to the Win32 environment. Design and
+%implementation of a logistics database for automatic vehicle 
+%localization, using SQL-Server, C++, STL, MFC, and ADO.
 
-Design and implementation of Speech Recognition and
-biometrics (fingerprint identification) systems. These 
-applications were implemented in C++ and Delphi, using 
-the ORACLE DBMS.
+\paragraph{Chercheur/Développeur}
+Montreal Inform\`atica, Rio de Janeiro, Brésil;
+Mars, 2000 -- Aout, 2000.
 
-\item System Analyst/Programmer\\
-Company: Delta de Friburgo\\
-Period: January, 2000 –- March, 2000
+\smallskip
+\begin{raggedright}
+Modélisation et réalisation des systèmes de reconnaissance vocale et
+de biométrique (identification d'empreintes digitales). Applications
+réalisées en C/C++ et Delphi avec ORACLE.
+\end{raggedright}
+ 
+%Design and implementation of Speech Recognition and
+%biometrics (fingerprint identification) systems. These 
+%applications were implemented in C++ and Delphi, using 
+%the ORACLE DBMS.
 
-I took part in the design of a profit optimization
-system for the Brazilian Petroleum Company
-(PETROBRAS), using C++ and the ORACLE DBMS
+\paragraph{Analyste de Systèmes/Programmeur}
+Delta de Friburgo, Rio de Janeiro, Brésil;
+Janvier, 2000 -- Mars, 2000
 
-\item Programmer\\
-Company: Brainstorming Ass. e Plan. em Inform\`atica\\
-Period: April, 1999 –- January, 2000
+\smallskip
+\begin{raggedright}
+Modélisation d'un système de optimisation de bénéfice pour la
+PETROBRAS.
+\end{raggedright}
 
-Lead programmer of a database system to control 
-the use of the necessary material for the repair of ships, weapons 
-and for general services inside a Brazilian Navy base in Rio de Janeiro.
-Development in Delphi/ORACLE.
+%I took part in the design of a profit optimization
+%system for the Brazilian Petroleum Company
+%(PETROBRAS), using C++ and the ORACLE DBMS
 
-\item Game Programmer\\
-Company: Z-Movie Studio.\\
-Period: January, 1998 –- January, 1999
+\paragraph{Programmeur Leader}
+Brainstorming Ass. e Plan. em Inform\`atica;
+Avril, 1999 -- Janvier, 2000
 
-Development of 3D educational computer games. Design and
-implementation of 3D engine, character animation, GUIs and game logic.
-Implementations in C++ for DirectX 6.0.
+\smallskip
+\begin{raggedright}
+Programmeur leader d'un système de base des données pour le contrôle
+de stock de matériel pour l'entretien des navires, des armes et des
+services générales dans une caserne de la Marine à Rio de Janeiro. 
+Réalisation en Delphi et PL/SQL (ORACLE).
+\end{raggedright}
 
-\item Programmer\\
-Company: ADD-Labs -- Universidade Federal Fluminense (Laboratory of Active Document Design)\\
-Period: October, 1996 –- January, 1998
+%Lead programmer of a database system to control 
+%the use of the necessary material for the repair of ships, weapons 
+%and for general services inside a Brazilian Navy base in Rio de Janeiro.
+%Development in Delphi/ORACLE.
 
-Development of a prototype Virtual Reality system built in C/C++ to the Brazilian Petroleum 
-Company (PETROBRAS). The objective was to provide the user with a 3D 
-visualization of oil extraction fields.
+\paragraph{Programmeur de Jeux Vidéos}
+Z-Movie Studio;
+Janvier, 1998 -- Janvier, 1999
 
-\end{itemize}
+\smallskip
+\begin{raggedright}
+Réalisation des jeux éducatifs en 3D. Modélisation et réalisation du 
+moteur 3D, animation des caractères, GUI et logique des jeux. Réalisation
+en C++ et DirectX 6.0.
+\end{raggedright}
+
+%Development of 3D educational computer games. Design and
+%implementation of 3D engine, character animation, GUIs and game logic.
+%Implementations in C++ for DirectX 6.0.
+
+\paragraph{Programmeur}
+ADD-Labs; Universidade Federal Fluminense;
+Octobre, 1996 -- Janvier, 1998
+
+\smallskip
+\begin{raggedright}
+Réalisation en C/C++ d'un prototype d'un système de réalité virtuelle pour la
+PETROBRAS. L'objectif du système était de visualiser en 3D des champs d'extraction
+de pétrole.
+\end{raggedright}
+
+%Development of a prototype Virtual Reality system built in C/C++ to the Brazilian Petroleum 
+%Company (PETROBRAS). The objective was to provide the user with a 3D 
+%visualization of oil extraction fields.
 
 %\section{Other Relevant Professional Experience}
 
-%\begin{itemize}
+%\begin{itemize*}
 %	\item 10-year experience working with C/C++;
 %	\item 4-year experience working with OpenGL;
 %	\item 3-year experience working with DirectShow
@@ -220,7 +307,7 @@ visualization of oil extraction fields.
 %	\item Good knowledge of MFC, STL and general Win32
 %	programming;
 %	\item Good knowledge of Linux programming;
-%\end{itemize}
+%\end{itemize*}
 
 
 \end{document}
